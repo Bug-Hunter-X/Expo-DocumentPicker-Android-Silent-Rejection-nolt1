@@ -1,0 +1,1 @@
+This error occurs when using the Expo DocumentPicker API on Android.  After selecting a file, the promise sometimes rejects with a silent error, providing no helpful information in the console.  The picker appears to function correctly, but the `result` object is never populated.
